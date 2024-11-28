@@ -4,14 +4,14 @@ import Link from 'next/link'
 
 export default function MotusExperience() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-[url('/bg.jpeg')] bg-contain bg-repeat text-white ">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-      <div className="absolute inset-0 z-0 bg-[url('/bg.jpeg')] bg-contain bg-repeat">
+      <div className="absolute inset-0 z-0 ">
         </div>
         <div className="container mx-auto px-4 pt-20 pb-12 text-center relative z-10">
           <Image
-            src="/logo.jpeg"
+            src="/logo.png"
             alt="Motus Experience Logo"
             width={200}
             height={100}
@@ -54,7 +54,7 @@ export default function MotusExperience() {
       </section>
 
       {/* Pricing Section */}
-      <section id='pricing' className="py-16 bg-gray-900">
+      <section id='pricing' className="py-16 ">
   <div className="container mx-auto px-4">
     <h2 className="text-4xl font-extrabold text-center mb-12 text-pink-500 tracking-wide">
       Pricing Options
@@ -153,7 +153,7 @@ export default function MotusExperience() {
 
       
       {/* Footer */}
-      <footer className="bg-gray-900 py-8">
+      <footer className=" py-8">
         <div className="container mx-auto px-4 text-center text-gray-400">
           <p>&copy; 2024 Motus Experience. All rights reserved.</p>
         </div>
