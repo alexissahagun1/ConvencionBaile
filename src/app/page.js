@@ -19,9 +19,9 @@ export default function MotusExperience() {
           />
           <h1 className="text-5xl font-bold tracking-wider text-pink-500 mb-8 uppercase">Motus Experience</h1>
           
-          <div className="space-y-4 mb-12 lowercase">
-            <p className="text-xl">FEBRUARY 28 - MARCH 2, 2025</p>
-            <p className="text-xl">GUADALAJARA, MEXICO</p>
+          <div className="space-y-4 mb-12">
+            <p className="text-xl">February 28 - March 2, 2025</p>
+            <p className="text-xl">Guadalajara, Mexico</p>
           </div>
 
           <p className="text-2xl max-w-3xl mx-auto mb-8 lowercase">
@@ -71,19 +71,18 @@ export default function MotusExperience() {
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
               <Link href='https://buy.stripe.com/test_00g8yzaKU0Kv8r6144'>
                 <p className="text-lg font-medium text-gray-300">Adults</p>
-                <p className="text-3xl font-bold text-pink-400">$350</p>
+                <p className="text-3xl font-bold">$350</p>
               </Link>
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
             <Link href='https://buy.stripe.com/test_3cs1676uEctd7n2001'>
               <p className="text-lg font-medium text-gray-300">Kids</p>
-              <p className="text-3xl font-bold text-purple-400">$300</p>
+              <p className="text-3xl font-bold">$300</p>
             </Link>
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
             <Link href='https://buy.stripe.com/test_8wMbKL3is9h18r63ce'>
               <p className="text-lg font-bold text-gray-300">Motus Members</p>
-              <p className="text-3xl font-bold text-yellow-400">$250</p>
             </Link>
             </div>
           </div>
@@ -100,19 +99,19 @@ export default function MotusExperience() {
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
             <Link href='https://buy.stripe.com/test_6oEbKL7yI9h1bDibIL'>
               <p className="text-lg font-medium text-gray-300">Adults</p>
-              <p className="text-3xl font-bold text-pink-400">$375</p>
+              <p className="text-3xl font-bold">$375</p>
             </Link>
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
             <Link href='https://buy.stripe.com/test_9AQbKLg5e78TbDi3cg'>
               <p className="text-lg font-medium text-gray-300">Kids</p>
-              <p className="text-3xl font-bold text-purple-400">$325</p>
+              <p className="text-3xl font-bold">$325</p>
             </Link>
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
             <Link href='https://buy.stripe.com/test_8wMbKL3is9h18r63ce'>
               <p className="text-lg font-bold text-gray-300">Motus Members</p>
-              <p className="text-3xl font-bold text-yellow-400">$250</p>
+              
             </Link>
             </div>
           </div>
@@ -129,19 +128,19 @@ export default function MotusExperience() {
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
             <Link href='https://buy.stripe.com/test_cN28yz06g0KvePu28d'>
               <p className="text-lg font-medium text-gray-300">Showcase</p>
-              <p className="text-3xl font-bold text-green-400">$70 per participant</p>
+              <p className="text-3xl font-bold">$70 per participant</p>
             </Link>
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
             <Link href='https://buy.stripe.com/test_9AQdST6uEctd5eU9AG'>
               <p className="text-lg font-medium text-gray-300">Adults Mentoring Diana Matos</p>
-              <p className="text-3xl font-bold text-pink-400">$530</p>
+              <p className="text-3xl font-bold">$530</p>
             </Link>
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
             <Link href='https://buy.stripe.com/test_00g1675qA78T0YE9AH'>
               <p className="text-lg font-medium text-gray-300">Kids Mentoring Ivan</p>
-              <p className="text-3xl font-bold text-purple-400">$490</p>
+              <p className="text-3xl font-bold">$490</p>
             </Link>
             </div>
           </div>
@@ -153,9 +152,11 @@ export default function MotusExperience() {
 
       
       {/* Footer */}
-      <footer className=" py-8">
-        <div className="container mx-auto px-4 text-center text-white font-bold">
+      <footer className="py-8">
+        <div className="container mx-auto px-4 space-y-2 text-center text-white font-bold">
           <p>&copy; 2024 Motus Experience. All rights reserved.</p>
+          <p>experience@motusthecompany.com</p>
+          <p>+52 33 1672 7742</p>
         </div>
       </footer>
     </div>
