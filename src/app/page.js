@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function MotusExperience() {
   return (
-    <div className="min-h-screen bg-[url('/bg.jpeg')] bg-contain bg-repeat text-white ">
+    <div className="min-h-screen bg-[url('/bg.jpeg')] bg-cover text-white ">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
       <div className="absolute inset-0 z-0 ">
@@ -154,7 +154,7 @@ export default function MotusExperience() {
       
       {/* Footer */}
       <footer className=" py-8">
-        <div className="container mx-auto px-4 text-center text-gray-400">
+        <div className="container mx-auto px-4 text-center text-white font-bold">
           <p>&copy; 2024 Motus Experience. All rights reserved.</p>
         </div>
       </footer>
