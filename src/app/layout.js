@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${madeSans.variable} antialiased`}
+        className={`${madeSans.variable}`}
       >
         {children}
       </body>
