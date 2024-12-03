@@ -134,7 +134,7 @@ export default function MotusExperience() {
             {/* </Link> */}
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
-              <p className="text-lg font-medium text-gray-300">payment will be processed after audition if selected</p>
+              <p className="text-md font-medium text-gray-300">payment will be processed after audition if selected</p>
             </div>
             <p className="text-md font-medium text-gray-300">audition scheduled for the first day of the weekend</p>
           </div>
