@@ -17,7 +17,7 @@ export default function MotusExperience() {
             height={100}
             className="mx-auto mb-6"
           />
-          <h1 className="md:text-5xl text-4xl  font-bold tracking-wider text-pink-500 mb-8 uppercase">Experience</h1>
+          <h1 className="md:text-4xl text-3xl  font-bold tracking-wider text-pink-500 mb-8 uppercase">Experience</h1>
           
           <div className="space-y-4 mb-12 uppercase md:text-xl text-lg">
             <p className="">February 28 - March 2, 2025</p>
