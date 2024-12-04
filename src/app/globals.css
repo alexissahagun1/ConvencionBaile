@@ -72,7 +72,7 @@
 }
 @font-face {
   font-family: 'madeSans';
-  src: url('/fonts/madeSans.woff') format('opentype');
+  src: url('./fonts/madeSans.woff') format('opentype');
   font-weight: bold;
   font-style: normal;
 }

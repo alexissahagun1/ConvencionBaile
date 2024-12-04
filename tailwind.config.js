@@ -65,8 +65,8 @@ module.exports = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 		fontFamily: {
-			sans: ['MadeSansBold', 'sans-serif'], // Default font
-			madeSans: ['MadeSansBold', 'sans-serif'], // Custom font
+			sans: ['MadeSans', 'sans-serif'], // Default font
+			madeSans: ['MadeSans', 'sans-serif'], // Custom font
 		},
   		keyframes: {
   			'accordion-down': {
