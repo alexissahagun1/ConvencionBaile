@@ -19,17 +19,15 @@ export default function MotusExperience() {
           />
           <h1 className="md:text-2xl text-2xl  font-bold tracking-wider text-pink-500 mb-8 uppercase">Experience</h1>
           
-          <div className="space-y-4 mb-12 uppercase md:text-xl text-lg">
+          <div className="mb-12 uppercase md:text-xl text-lg">
             <p className="">February 28 - March 2, 2025</p>
             <p className="">Guadalajara, Mexico</p>
           </div>
 
-          <p className="md:text-2xl text-xl max-w-3xl mx-auto mb-8 lowercase">
+          <p className="md:text-2xl text-xl max-w-3xl mx-auto lowercase">
             JOIN US FOR 3 DAYS OF UNPARALLELED EXCITEMENT, GROWTH, AND INSPIRATION!
           </p>
-          <p className="md:text-2xl text-xl max-w-4xl mx-auto lowercase">
-            GET READY FOR AN EXHILARATING, ONCE-IN-A-LIFETIME DANCE EXPERIENCE!
-          </p>
+
 
         {/* CTA Section */}
 
@@ -38,7 +36,7 @@ export default function MotusExperience() {
 
 
       {/* About Section */}
-      <section className="py-8">
+      <section className="py-4">
         <div className="container mx-auto px-4 max-w-4xl">
           <p className="md:text-2xl text-lg text-center">
             MOTUS is a global dance company designed to train and elevate artists through intense dance training. Created by Diana Matos, this program focuses on personal growth, quality of movement,
@@ -53,14 +51,14 @@ export default function MotusExperience() {
     {/* <h2 className="text-4xl font-extrabold text-center mb-12 text-pink-500 tracking-wide">
       Pricing Options
     </h2> */}
-    <section className="py-16 text-center">
-      <Link href="" className="bg-pink-500 hover:bg-pink-600 text-white md:text-3xl text-2xl px-8 py-4 rounded">
-        Register Now
-      </Link>
+    <section className="flex py-16 justify-center">
+      <div className="bg-pink-500 text-white md:text-3xl text-2xl w-auto px-8 py-4 rounded">
+        <p>Register Now</p>
+      </div>
   </section>
 
   {/* cards */}
-  <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto perspective-1000">
+  <div id='pricing' className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto perspective-1000">
       {/* Card 1 */}
       <div className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-xl transform transition-transform duration-700 hover:rotate-x-6 hover:rotate-y-6 hover:scale-105 hover:translate-z-10">
         <div className="relative p-6 text-white">
@@ -129,14 +127,14 @@ export default function MotusExperience() {
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
             {/* <Link href='https://buy.stripe.com/test_00g1675qA78T0YE9AH'> */}
-              <p className="text-lg font-medium text-gray-300">Kids Ivan Mentorship </p>
+              <p className="text-lg font-medium text-gray-300">Kids Ivan Koumaev Mentorship </p>
               <p className="md:text-3xl text-2xl font-bold">$100</p>
             {/* </Link> */}
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
-              <p className="text-md font-medium text-gray-300">payment will be processed after audition if selected</p>
+              <p className="text-md font-medium text-gray-300">Additional payment will be processed after audition if selected</p>
             </div>
-            <p className="text-md font-medium text-gray-300">audition scheduled for the first day of the weekend</p>
+            {/* <p className="text-md font-medium text-gray-300">audition scheduled for the first day of the weekend</p> */}
           </div>
         </div>
       </div>
