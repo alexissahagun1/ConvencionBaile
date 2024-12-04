@@ -17,7 +17,7 @@ export default function MotusExperience() {
             height={100}
             className="mx-auto mb-6"
           />
-          <h1 className="md:text-4xl text-3xl  font-bold tracking-wider text-pink-500 mb-8 uppercase">Experience</h1>
+          <h1 className="md:text-2xl text-2xl  font-bold tracking-wider text-pink-500 mb-8 uppercase">Experience</h1>
           
           <div className="space-y-4 mb-12 uppercase md:text-xl text-lg">
             <p className="">February 28 - March 2, 2025</p>
@@ -152,6 +152,7 @@ export default function MotusExperience() {
               <p className="md:text-3xl text-2xl font-bold">$70 per participant</p>
             </Link>
             </div>
+            <p className="text-sm text-gray-300">please register at experience@motusthecompany.com prior to payment</p>
           </div>
         </div>
       </div>
