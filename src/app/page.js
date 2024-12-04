@@ -59,8 +59,8 @@ export default function MotusExperience() {
       Pricing Options
     </h2> */}
     <section className="flex py-16 justify-center">
-      <div className="bg-pink-500 text-white md:text-3xl text-2xl w-auto px-8 py-4 rounded">
-        <p>Register Now</p>
+      <div className="bg-pink-500 text-white md:text-3xl text-2xl w-auto px-8 py-4 rounded uppercase">
+        <p>Register</p>
       </div>
   </section>
 
@@ -87,7 +87,7 @@ export default function MotusExperience() {
             </Link>
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
-              <p className="text-md font-bold text-gray-300">price available untill January 15</p>
+              <p className="text-md font-bold text-gray-300">Price till January 15</p>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function MotusExperience() {
             </Link>
             </div>
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
-              <p className="text-md font-bold text-gray-300">price starting January 15</p>
+              <p className="text-md font-bold text-gray-300">Price from January 15</p>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function MotusExperience() {
               <p className="md:text-3xl text-2xl font-bold">$70 per participant</p>
             </Link>
             </div>
-            <p className="text-sm text-gray-300">please register at experience@motusthecompany.com prior to payment</p>
+            <p className="text-sm text-gray-300">please register piece at experience@motusthecompany.com prior to payment</p>
           </div>
         </div>
       </div>
