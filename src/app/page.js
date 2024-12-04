@@ -166,13 +166,34 @@ export default function MotusExperience() {
 </section>
 
       
-      {/* Footer */}
-      <footer className="py-8">
-        <div className="container mx-auto px-4 space-y-2 text-center text-white font-bold">
-          <p>&copy; 2024 Motus Experience. All rights reserved.</p>
-          <p>experience@motusthecompany.com</p>
-          <p>+52 33 1672 7742</p>
-        </div>
+    {/* Footer */}
+    <footer className="py-8">
+      <div className="container mx-auto px-4 space-y-2 text-center text-white font-bold">
+        <p>&copy; 2024 Motus Experience. All rights reserved.</p>
+        <p>experience@motusthecompany.com</p>
+        <p>+52 33 1672 7742</p>
+        <div className='flex justify-center'>
+          <Link
+            href="https://www.instagram.com/fulloutexperience/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-8 h-8 text-white"
+            >
+              <path
+                d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.35-3.15a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3z"
+              />
+            </svg>
+        </Link>
+      </div>
+    </div>
+
+
       </footer>
     </div>
   )
