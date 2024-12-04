@@ -13,11 +13,18 @@ export default function MotusExperience() {
           <Image
             src="/logo.png"
             alt="Motus Experience Logo"
-            width={200}
-            height={100}
-            className="mx-auto mb-6"
+            width={300}
+            height={300}
+            className="mx-auto -mb-6"
           />
-          <h1 className="md:text-2xl text-2xl  font-bold tracking-wider text-pink-500 mb-8 uppercase">Experience</h1>
+          <Image
+            src="/text.png"
+            alt="Motus Experience Logo"
+            width={500}
+            height={300}
+            className="mx-auto mb-16"
+          />
+          {/* <h1 className="md:text-2xl text-2xl  font-bold tracking-wider text-pink-500 mb-8 uppercase">Experience</h1> */}
           
           <div className="mb-12 uppercase md:text-xl text-lg">
             <p className="">February 28 - March 2, 2025</p>
