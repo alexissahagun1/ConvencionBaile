@@ -152,7 +152,7 @@ export default function MotusExperience() {
           </h3>
           <div className="space-y-4">
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
-            <Link href='https://docs.google.com/forms/d/e/1FAIpQLSdDprsQOFM2gIfJkiLWce_456P6K3xw9BtqlyBL7q8_yG7I5Q/viewform?usp=sharing'>
+            <Link href='https://forms.gle/ADDyx7gY26LrTCSr5'>
               <p className="text-lg font-medium text-gray-300">Register now</p>
               <p className="md:text-3xl text-2xl font-bold">$70 per participant</p>
             </Link>
