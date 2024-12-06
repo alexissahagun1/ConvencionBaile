@@ -152,7 +152,7 @@ export default function MotusExperience() {
           </h3>
           <div className="space-y-4">
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
-            <Link href='https://forms.gle/ND2UuzmGj3ZoGJwy6'>
+            <Link href='https://docs.google.com/forms/d/e/1FAIpQLSdDprsQOFM2gIfJkiLWce_456P6K3xw9BtqlyBL7q8_yG7I5Q/viewform?usp=sharing'>
               <p className="text-lg font-medium text-gray-300">Register now</p>
               <p className="md:text-3xl text-2xl font-bold">$70 per participant</p>
             </Link>
@@ -161,12 +161,12 @@ export default function MotusExperience() {
           </div>
         </div>
       </div>
-  <div className='flex items-center justify-center'>
+  <div className='flex items-center justify-center '>
           <Link
             href="https://www.instagram.com/fulloutexperience/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white"
+            className="text-white cursor"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
