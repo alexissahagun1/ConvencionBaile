@@ -152,14 +152,33 @@ export default function MotusExperience() {
           </h3>
           <div className="space-y-4">
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
-            <Link href='https://buy.stripe.com/test_cN28yz06g0KvePu28d'>
+            <Link href='https://forms.gle/ND2UuzmGj3ZoGJwy6'>
               <p className="text-lg font-medium text-gray-300">Register now</p>
               <p className="md:text-3xl text-2xl font-bold">$70 per participant</p>
             </Link>
             </div>
-            <p className="text-sm text-gray-300">please register piece at experience@motusthecompany.com prior to payment</p>
+            <p className="text-sm text-gray-300">An amount will be charged if piece is selected</p>
           </div>
         </div>
+      </div>
+  <div className='flex items-center justify-center'>
+          <Link
+            href="https://www.instagram.com/fulloutexperience/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-24 h-24 text-white"
+            >
+              <path
+                d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.35-3.15a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3z"
+              />
+            </svg>
+        </Link>
       </div>
     </div>
   </div>
@@ -172,29 +191,9 @@ export default function MotusExperience() {
         <p>&copy; 2024 Motus Experience. All rights reserved.</p>
         <p>experience@motusthecompany.com</p>
         <p>+52 33 1672 7742</p>
-        <div className='flex justify-center'>
-          <Link
-            href="https://www.instagram.com/fulloutexperience/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              className="w-8 h-8 text-white"
-            >
-              <path
-                d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.35-3.15a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3z"
-              />
-            </svg>
-        </Link>
-      </div>
-    </div>
 
-
-      </footer>
     </div>
+  </footer>
+</div>
   )
 }
