@@ -101,7 +101,7 @@ export default function MotusExperience() {
           </h3>
           <div className="space-y-4">
             <div className="p-4 bg-gray-800 rounded-lg shadow-inner hover:bg-gray-700 transition">
-            <Link href='https://buy.stripe.com/dR68zL5h0bdG7ew00a'>
+            <Link href='https://buy.stripe.com/28o17j38S2Ha0Q87sE'>
               <p className="text-lg font-medium text-gray-300">Adults</p>
               <p className="md:text-3xl text-2xl font-bold">$375</p>
             </Link>
